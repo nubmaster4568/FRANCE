@@ -367,7 +367,7 @@ footer {
     display: none; /* Hide scrollbar for Webkit browsers */
 }
 
-.products-grid {
+.products-grid-weed {
     display: flex; /* Use flexbox layout */
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent items from wrapping to the next line */
@@ -376,7 +376,26 @@ footer {
     scrollbar-width: none;
     /* Align items to the start of the container */
 }
-.products-grid2 {
+.products-grid-thc {
+    display: flex; /* Use flexbox layout */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+    padding: 20px 20px 20px 20px;
+    align-items: flex-start; 
+    scrollbar-width: none;
+    /* Align items to the start of the container */
+}
+.products-grid-vapes {
+    display: flex; /* Use flexbox layout */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+    padding: 20px 20px 20px 20px;
+    align-items: flex-start; 
+    scrollbar-width: none;
+    /* Align items to the start of the container */
+}
+
+.products-grid-weed2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -385,7 +404,24 @@ footer {
     border-radius: 10px 10px 0px 0px;
     box-shadow: inset 0px 4px 100px rgba(164, 255, 74, 0.218); /* Inset shadow from top to bottom */
 }
-
+.products-grid-thc3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 4px 100px rgba(164, 255, 74, 0.218); /* Inset shadow from top to bottom */
+}
+.products-grid-vapes4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: inset 0px 4px 100px rgba(164, 255, 74, 0.218); /* Inset shadow from top to bottom */
+}
 .product-item {
     display: flex; /* Enable flexbox layout */
     flex-direction: column; /* Stack children vertically */

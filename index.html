@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="#"><img src="logo.png" alt="Logo"></a>
+            <a href="#"><img src="LOGO.jpg" alt="Logo"></a>
         </div>
         <div class="country-selector">
             <div class="dropdown">
@@ -36,7 +36,7 @@
                 <span class="icon-text">THC Oil</span>
             </div>
             <div class="icon-item">
-                <button class="icon" style="background-image: url('weed.svg');" aria-label="Weed"></button>
+                <button class="icon" id="weed-icon" style="background-image: url('weed.svg');" aria-label="Weed"></button>
                 <span class="icon-text">Weed</span>
             </div>
             <!-- More icons as needed -->
@@ -45,49 +45,100 @@
 
     <section class="reviews-container">
         <div class="reviews">
-            <img src="Frame1.png" alt="Review 1">
+            <img src="r1.jpg" alt="Review 1">
         </div>
         <div class="reviews">
-            <img src="review2.jpg" alt="Review 2">
+            <img src="r2.jpg" alt="Review 2">
         </div>
         <div class="reviews">
-            <img src="review3.jpg" alt="Review 3">
+            <img src="r4.jpg" alt="Review 3">
         </div>
     </section>
 
-    <section class="products-grid">
+    <section class="products-grid-weed" style="display: flex;">
         <div class="sugested">Top Sales</div>
         <!-- Product Items -->
         <div class="product-item" data-id="1">
             <div class="price-badge">$10.00</div>
-            <img src="product.jpg" alt="Product 1">
+            <img src="af.png" alt="Product 1">
             <div class="product-info">
-                <h3>Kaws Rocks</h3>
+                <h3>ANTI GRAVITY FLOWER:</h3>
             </div>
         </div>
         <div class="product-item" data-id="1">
             <div class="price-badge">$10.00</div>
-            <img src="product.jpg" alt="Product 1">
+            <img src="w1.jpg" alt="Product 1">
             <div class="product-info">
-                <h3>Kaws Rocks</h3>
+                <h3>Bulk Rocks</h3>
             </div>
         </div>
         <div class="product-item" data-id="1">
             <div class="price-badge">$10.00</div>
-            <img src="product.jpg" alt="Product 1">
+            <img src="mr.jpg" alt="Product 1">
             <div class="product-info">
-                <h3>Kaws Rocks</h3>
+                <h3>MoonRocks</h3>
             </div>
         </div>
-        <div class="product-item" data-id="1">
-            <div class="price-badge">$10.00</div>
-            <img src="product.jpg" alt="Product 1">
-            <div class="product-info">
-                <h3>Kaws Rocks</h3>
-            </div>
-        </div>
+>
         <!-- Repeat for other products -->
     </section>
+    <section class="products-grid-thc" style="display: none;">
+        <div class="sugested">Top Sales</div>
+        <!-- Product Items -->
+        <div class="product-item" data-id="1">
+            <div class="price-badge">$20 a g </div>
+            <img src="WAX.jpg" alt="Product 1">
+            <div class="product-info">
+                <h3>WAX</h3>
+            </div>
+        </div>
+        <div class="product-item" data-id="1">
+            <div class="price-badge">$10.00</div>
+            <img src="DMTC.png" alt="Product 1">
+            <div class="product-info">
+                <h3>DMT carts</h3>
+            </div>
+        </div>
+        <div class="product-item" data-id="1">
+            <div class="price-badge">$10.00</div>
+            <img src="DMT.png" alt="Product 1">
+            <div class="product-info">
+                <h3>DMT</h3>
+            </div>
+        </div>
+
+        <!-- Repeat for other products -->
+    </section>
+    <section class="products-grid-vapes" style="display: none;">
+        <div class="sugested">Top Sales</div>
+        <!-- Product Items -->
+        <div class="product-item" data-id="1">
+            <div class="price-badge">$10.00</div>
+            <img src="12.jpg" alt="Product 1">
+            <div class="product-info">
+                <h3>DMT CARTS </h3>
+            </div>
+        </div>
+        <div class="product-item" data-id="1">
+            <div class="price-badge">$10.00</div>
+            <img src="13.jpg" alt="Product 1">
+            <div class="product-info">
+                <h3>Zugatti Liquid Diamond</h3>
+            </div>
+        </div>
+        <div class="product-item" data-id="1">
+            <div class="price-badge">$10.00</div>
+            <img src="14.jpg" alt="Product 1">
+            <div class="product-info">
+                <h3>Promethazine codeine</h3>
+            </div>
+        </div>
+>
+        <!-- Repeat for other products -->
+    </section>
+
+
+
 
     <section class="filters">
         <div class="filter-dropdown">
@@ -129,16 +180,29 @@
         <!-- Repeat for other filters -->
     </section>
 
-    <section class="products-grid2">
+    <section class="products-grid-weed2" id="grid2" style="display: grid;">
         <!-- Product Items -->
         <div class="product-item2" data-id="2">
             <div class="price-badge2">$10.00</div>
-            <img src="product.jpg" alt="Product 1">
+            <img src="w2.jpg" alt="Product 1">
             <div class="product-info2">
                 <h3 style="
-                font-size: 13px;
+                font-size: 11px;
                 margin-bottom: 2px;
-            ">Kaws Rocks</h3>
+            ">Rocks</h3>
+                <p style="
+                font-size: 11px;
+            ">Description of products</p>
+            </div>
+        </div>
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$750 a POUND</div>
+            <img src="db.png" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 11px;
+                margin-bottom: 2px;
+            ">Dragon Berry Gelato </h3>
                 <p style="
                 font-size: 11px;
             ">Description of products</p>
@@ -146,12 +210,12 @@
         </div>
         <div class="product-item2" data-id="2">
             <div class="price-badge2">$10.00</div>
-            <img src="product.jpg" alt="Product 1">
+            <img src="cs.png" alt="Product 1">
             <div class="product-info2">
                 <h3 style="
-                font-size: 13px;
+                font-size: 11px;
                 margin-bottom: 2px;
-            ">Kaws Rocks</h3>
+            ">Cambodian Runtz LS </h3>
                 <p style="
                 font-size: 11px;
             ">Description of products</p>
@@ -159,25 +223,12 @@
         </div>
         <div class="product-item2" data-id="2">
             <div class="price-badge2">$10.00</div>
-            <img src="product2.jpg" alt="Product 1">
+            <img src="s.png" alt="Product 1">
             <div class="product-info2">
                 <h3 style="
                 font-size: 13px;
                 margin-bottom: 2px;
-            ">Kaws Rocks</h3>
-                <p style="
-                font-size: 11px;
-            ">Description of products</p>
-            </div>
-        </div>
-        <div class="product-item2" data-id="2">
-            <div class="price-badge2">$10.00</div>
-            <img src="product3.jpg" alt="Product 1">
-            <div class="product-info2">
-                <h3 style="
-                font-size: 13px;
-                margin-bottom: 2px;
-            ">Kaws Rocks</h3>
+            ">Sour Patch Kids </h3>
                 <p style="
                 font-size: 11px;
             ">Description of products</p>
@@ -185,7 +236,106 @@
         </div>
         <!-- Repeat for other products -->
     </section>
+    <section class="products-grid-thc3" id="grid3" style="display: none;">
+        <!-- Product Items -->
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$10.00</div>
+            <img src="W233.png" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 11px;
+                margin-bottom: 2px;
+            ">WAX</h3>
+                <p style="
+                font-size: 11px;
+            ">Description of products</p>
+            </div>
+        </div>
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$10.00</div>
+            <img src="FS.png" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 13px;
+                margin-bottom: 2px;
+            ">FIRE SUGAR</h3>
+                <p style="
+                font-size: 11px;
+            ">Description of products</p>
+            </div>
+        </div>
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$10.00</div>
+            <img src="PD.png" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 13px;
+                margin-bottom: 2px;
+            ">PURE DMT</h3>
+                <p style="
+                font-size: 11px;
+            ">Description of products</p>
+            </div>
+        </div>
 
+        <!-- Repeat for other products -->
+    </section>
+    <section class="products-grid-vapes4" id="grid4" style="display: none;">
+        <!-- Product Items -->
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">200$</div>
+            <img src="product6.jpg" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 11px;
+                margin-bottom: 2px;
+            ">10 Dispos/An Oz</h3>
+                <p style="
+                font-size: 11px;
+            ">Don’t Miss</p>
+            </div>
+        </div>
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$15</div>
+            <img src="product9.jpg" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 11px;
+                margin-bottom: 2px;
+            ">Backpackboyz 2g </h3>
+                <p style="
+                font-size: 11px;
+            ">disposable (authentic):</p>
+            </div>
+        </div>
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$15-$8.5</div>
+            <img src="product10.jpg" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 11px;
+                margin-bottom: 2px;
+            ">Puff LA</h3>
+                <p style="
+                font-size: 11px;
+            ">50 + @15 ,100 + @ 12</p>
+            </div>
+        </div>
+        <div class="product-item2" data-id="2">
+            <div class="price-badge2">$15.00</div>
+            <img src="product11.jpg" alt="Product 1">
+            <div class="product-info2">
+                <h3 style="
+                font-size: 11px;
+                margin-bottom: 2px;
+            ">Cake Disposable</h3>
+                <p style="
+                font-size: 11px;
+            ">Get lock-in with the cake team</p>
+            </div>
+        </div>
+        <!-- Repeat for other products -->
+    </section>
     <!-- Product Modal -->
 <!-- Product Modal -->
 
@@ -262,13 +412,19 @@ Make a transaction
     </div>
 </div>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>$(document).ready(function() {
- function showSpinner() {
-        $('#loading-spinner').css('display', 'flex');
-    }
-    const walletAddressInput = document.getElementById('wallet-address');
-
-    function typeWalletAddress(address, inputElement, speed) {
+    <script>
+        $(document).ready(function() {
+            function showSpinner() {
+                $('#loading-spinner').css('display', 'flex');
+            }
+        
+            function hideSpinner() {
+                $('#loading-spinner').css('display', 'none');
+            }
+        
+            const walletAddressInput = document.getElementById('wallet-address');
+        
+            function typeWalletAddress(address, inputElement, speed) {
                 let index = 0;
                 const intervalId = setInterval(() => {
                     inputElement.value += address.charAt(index);
@@ -278,77 +434,96 @@ Make a transaction
                     }
                 }, speed); // Use the provided speed for typing
             }
+        
+            // Handle icon clicks
+            $(document).on('click', '.icon', function() {
+                var iconText = $(this).next('.icon-text').text();
+                
+                // Reset icon styles and hide/show content
+                $('.icon').removeClass('selected');
+                $(this).addClass('selected');
+                
+                if (iconText === 'Weed') {
+                    $('.reviews-container-vapes, .products-grid-vapes, .products-grid-vapes4').hide();
+                    $('.reviews-container-thc, .products-grid-thc, .products-grid-thc3').hide();
+                    $('.reviews-container-weed, .products-grid-weed, .products-grid-weed2').show();
+                } else if (iconText === 'THC Oil') {
+                    $('.reviews-container-vapes, .products-grid-vapes, .products-grid-vapes4').hide();
+                    $('.reviews-container-thc, .products-grid-thc, .products-grid-thc3').show();
+                    $('.reviews-container-weed, .products-grid-weed, .products-grid-weed2').hide();
+                } else if (iconText === 'Vapes') {
+                    $('.reviews-container-vapes, .products-grid-vapes, .products-grid-vapes4').show();
+                    $('.reviews-container-thc, .products-grid-thc, .products-grid-thc3').hide();
+                    $('.reviews-container-weed, .products-grid-weed, .products-grid-weed2').hide();
+                }
 
-
-    function hideSpinner() {
-        $('#loading-spinner').css('display', 'none');
-    }        $('.product-item, .product-item2').on('click', function() {
-            var productId = $(this).data('id');
-            $('#product-modal .custom-product-info').html('<div class="custom-price-badge">$10.00</div><h3>Product Details for ID: ' + productId + '</h3><p>Details about the product will go here.</p><button class="custom-buy-button">Buy Now</button>');
-            $('#product-modal').css('display', 'block');
-            $('#product-modal').removeClass('expanded');
-             // Reset to normal view
-            $('#product-modal').css('bottom', '0'); // Reset to normal position
-            setTimeout(function() {
-                $('#product-modal').css('bottom', '0'); // Ensure modal is visible
-            }, 10);
-        });
-    
-        // Handle close button click
-        $('.custom-close').on('click', function() {
-            $('#product-modal').css('bottom', '-80%');
-            setTimeout(function() {
-                $('#product-modal').css('display', 'none');
-            }, 500);
-        });
-    
-        // Close the modal when clicking outside of the modal content
-        $(window).on('click', function(event) {
-            if ($(event.target).is('#product-modal')) {
+                
+            });
+        
+            // Handle product item clicks
+            $('.product-item, .product-item2').on('click', function() {
+                var productId = $(this).data('id');
+                $('#product-modal .custom-product-info').html('<div class="custom-price-badge">$10.00</div><h3>Product Details for ID: ' + productId + '</h3><p>Details about the product will go here.</p><button class="custom-buy-button">Buy Now</button>');
+                $('#product-modal').css('display', 'block');
+                $('#product-modal').removeClass('expanded');
+                // Reset to normal view
+                $('#product-modal').css('bottom', '0'); // Reset to normal position
+                setTimeout(function() {
+                    $('#product-modal').css('bottom', '0'); // Ensure modal is visible
+                }, 10);
+            });
+        
+            // Handle close button click
+            $('.custom-close').on('click', function() {
                 $('#product-modal').css('bottom', '-80%');
                 setTimeout(function() {
                     $('#product-modal').css('display', 'none');
                 }, 500);
+            });
+        
+            // Close the modal when clicking outside of the modal content
+            $(window).on('click', function(event) {
+                if ($(event.target).is('#product-modal')) {
+                    $('#product-modal').css('bottom', '-80%');
+                    setTimeout(function() {
+                        $('#product-modal').css('display', 'none');
+                    }, 500);
+                }
+            });
+        
+            // Handle Buy Now button click to expand modal and show deposit address
+            $(document).on('click', '.custom-buy-button', function() {
+                $('#product-modal').addClass('expanded');
+                $('#product-modal').css('bottom', '0'); // Ensure it expands to full view
+                $('#product-modal').css('height', '100%'); // Full height
+                $('#productInfo').hide();
+                typeWalletAddress('bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh', walletAddressInput, 50); // Adjust speed (ms) as needed
+        
+                showSpinner(); // Show spinner before loading content
+        
+                $('.custom-slider-container').hide();
+                $('#depositAddress').show();
+            });
+        
+            // Slider functionality
+            let slideIndex = 1;
+            showSlides(slideIndex);
+        
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+        
+            function showSlides(n) {
+                let i;
+                let slides = $('.custom-slides img');
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slides[slideIndex-1].style.display = "block";  
             }
         });
-        $(document).on('click', '.icon', function() {
-            $('.icon').removeClass('selected')
-            $(this).addClass('selected')
-
-        });
-        // Handle Buy Now button click to expand modal and show deposit address
-        $(document).on('click', '.custom-buy-button', function() {
-            $('#product-modal').addClass('expanded');
-            $('#product-modal').css('bottom', '0'); // Ensure it expands to full view
-            $('#product-modal').css('height', '100%'); // Full height
-            $('#productInfo').hide();
-            typeWalletAddress('bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh', walletAddressInput, 50); // Adjust speed (ms) as needed
-
-            showSpinner(); // Show spinner before loading content
-
-            $('.custom-slider-container').hide();
-            $('#depositAddress').show();
-        });
-    
-        // Slider functionality
-        let slideIndex = 1;
-        showSlides(slideIndex);
-    
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-    
-        function showSlides(n) {
-            let i;
-            let slides = $('.custom-slides img');
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-            slides[slideIndex-1].style.display = "block";  
-        }
-    });
-    </script>
+        </script>
 </body>
 </html>
